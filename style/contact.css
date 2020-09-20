@@ -1,0 +1,124 @@
+.clear {
+	clear: both;
+}
+
+#header {
+	width: 100%;
+	height: 150px;
+	background-color: #007185;
+}
+
+#page-title {
+	font-size: 80px;
+	padding-top: 29px;
+	font-family: 'Oswald', sans-serif;
+	text-align: center;
+}
+
+#contact-spacer {
+	margin: auto;
+	max-width: 800px
+}
+
+#contact-container {
+	max-width: 700px;
+	margin: 50px 50px;
+	background-color: #EAEAEA;
+	-webkit-box-shadow: 0px 0px 18px 0px rgba(117,117,117,1);
+	-moz-box-shadow: 0px 0px 18px 0px rgba(117,117,117,1);
+	box-shadow: 0px 0px 18px 0px rgba(117,117,117,1);
+	overflow: hidden;
+}
+
+#errors {
+	width: 83%;
+	background-color: black;
+	margin-left: 8.5%;
+	margin-top: 30px;
+	display: none;
+}
+
+#bar {
+	width: 100%;
+	height: 5px;
+	background-color: red;
+}
+
+.error {
+	padding: 6px;
+	font-family: 'Roberto', sans-serif;
+	color: white;
+	display: none;
+}
+
+#form-container {
+	padding-left: 30px;
+}
+
+#inline {
+	margin-top: 30px;
+	width: 100%;
+	height: 20px;
+}
+
+#inline input {
+	float: left;
+	height: 30px;
+}
+
+#name-input {
+	width: 35%;
+	margin-left: 8.5%;
+}
+
+#email-input {
+	width: 45%;
+	margin-left: 3%;
+}
+
+#subject-input {
+	width: 83%;
+	margin-left: 8.5%;
+	height: 30px;
+	margin-top: 10px;
+}
+
+#message-input {
+	width: 83%;
+	margin-left: 8.5%;
+	margin-top: 10px;
+	height: 200px;
+	margin-bottom: 20px;
+	font-family: 'Roberto', sans-serif;
+	padding-top: 5px;
+	padding-left: 3px;
+	resize: vertical;
+}
+
+#submit {
+	width: 100px;
+	margin-bottom: 30px;
+	height: 30px;
+	margin-left: calc(50% - 50px);
+	background-color: #048ba8ff;
+	border-width: 1px;
+	border-radius: 3px;
+}
+
+#submit:hover {
+	opacity: 90%;
+}
+
+iframe {
+	display: none;
+}
+
+#footer {
+	margin-top: 30px;
+}
+
+@media screen and (max-width: 610px) {
+	#header {
+		margin-top: 75px;
+	}
+}
